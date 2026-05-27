@@ -1,0 +1,16 @@
+.gradle/
+.idea/
+build/
+lib/
+run/
+bin/
+run-data/
+.settings/
+.project
+.classpath
+.DS_Store
+**/.DS_Store
+**/.obsidian/
+/logs
+/local
+gametest.log
