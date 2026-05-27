@@ -17,20 +17,22 @@ public class PlanetShaderRegistration {
         return planetShader;
     }
 
-    public static final RenderType PLANET_RENDER_TYPE = RenderType.create(
-        "planet",
-        DefaultVertexFormat.POSITION_COLOR_NORMAL,
-        VertexFormat.Mode.QUADS,
-        256,
-        RenderType.CompositeState.builder()
-            .setShaderState(new RenderStateShard.ShaderStateShard(PlanetShaderRegistration::getPlanetShader))
-            .setTextureState(RenderStateShard.NO_TEXTURE)
-            .setTransparencyState(RenderStateShard.NO_TRANSPARENCY)
-            .setCullState(RenderStateShard.NO_CULL)
-            .setLightmapState(RenderStateShard.NO_LIGHTMAP)
-            .setOverlayState(RenderStateShard.NO_OVERLAY)
-            .createCompositeState(false)
-    );
+    public static RenderType planetRenderType(ResourceLocation texture) {
+        return RenderType.create(
+            "planet_textured",
+            DefaultVertexFormat.POSITION_TEX_COLOR_NORMAL,
+            VertexFormat.Mode.QUADS,
+            256,
+            RenderType.CompositeState.builder()
+                .setShaderState(new RenderStateShard.ShaderStateShard(PlanetShaderRegistration::getPlanetShader))
+                .setTextureState(new RenderStateShard.TextureStateShard(texture, false, false))
+                .setTransparencyState(RenderStateShard.NO_TRANSPARENCY)
+                .setCullState(RenderStateShard.NO_CULL)
+                .setLightmapState(RenderStateShard.NO_LIGHTMAP)
+                .setOverlayState(RenderStateShard.NO_OVERLAY)
+                .createCompositeState(false)
+        );
+    }
 
     public static void onRegisterShaders(RegisterShadersEvent event) {
         try {
@@ -38,7 +40,7 @@ public class PlanetShaderRegistration {
                 new ShaderInstance(
                     event.getResourceProvider(),
                     ResourceLocation.fromNamespaceAndPath("space_engine_s", "rendertype_planet"),
-                    DefaultVertexFormat.POSITION_COLOR_NORMAL
+                    DefaultVertexFormat.POSITION_TEX_COLOR_NORMAL
                 ),
                 shader -> planetShader = shader
             );

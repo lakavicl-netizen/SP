@@ -25,8 +25,8 @@ public class SpaceTeleportHandler {
     private static final int OVERWORLD_TELEPORT_Y = 100;
     private static final int OVERWORLD_RETURN_Y = 96;
     private static final Vec3 PLANET_CENTER = new Vec3(0, 128, 0);
-    private static final double PLANET_APPROACH_DISTANCE = 130.0;
-    private static final double SPACE_INSERT_ALTITUDE = 300.0;
+    private static final double PLANET_APPROACH_DISTANCE = 150.0;
+    private static final double SPACE_INSERT_ALTITUDE = 260.0;
     private static final long COOLDOWN_MS = 2000;
 
     private final Map<UUID, Long> lastTeleportTime = new ConcurrentHashMap<>();
@@ -76,9 +76,9 @@ public class SpaceTeleportHandler {
         ServerSubLevel sableSubLevel = SableSubLevelWarper.getPlayerSubLevel(player);
 
         if (sableSubLevel != null) {
-            SableSubLevelWarper.warpSubLevelToDimension(sableSubLevel, overworld, new Vector3d(player.getX(), OVERWORLD_RETURN_Y, player.getZ()));
+            SableSubLevelWarper.warpSubLevelToDimension(sableSubLevel, overworld, new Vector3d(0, OVERWORLD_RETURN_Y, 0));
         } else {
-            player.teleportTo(overworld, player.getX(), OVERWORLD_RETURN_Y, player.getZ(), Set.of(), player.getYRot(), player.getXRot());
+            player.teleportTo(overworld, 0, OVERWORLD_RETURN_Y, 0, Set.of(), player.getYRot(), player.getXRot());
         }
     }
 
