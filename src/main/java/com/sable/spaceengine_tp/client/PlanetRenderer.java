@@ -17,7 +17,8 @@ import org.joml.Vector3f;
 @EventBusSubscriber(value = Dist.CLIENT)
 public class PlanetRenderer {
     private static final Vec3 PLANET_POS = new Vec3(0, 128, 0);
-    private static final float HALF_SIZE = 10.0f;
+    private static final float HALF_SIZE_SPACE = 96.0f;
+    private static final float HALF_SIZE_OVERWORLD = 20.0f;
 
     @SubscribeEvent
     public static void onRenderLevelStage(RenderLevelStageEvent event) {
@@ -29,10 +30,13 @@ public class PlanetRenderer {
         if (level == null) return;
 
         Vec3 renderPos;
+        float halfSize;
         if (level.dimension() == Level.OVERWORLD) {
             renderPos = new Vec3(camera.getPosition().x, camera.getPosition().y + 200, camera.getPosition().z);
+            halfSize = HALF_SIZE_OVERWORLD;
         } else {
             renderPos = PLANET_POS;
+            halfSize = HALF_SIZE_SPACE;
         }
 
         ShaderInstance shader = PlanetShaderRegistration.getPlanetShader();
@@ -49,7 +53,7 @@ public class PlanetRenderer {
         MultiBufferSource.BufferSource bufferSource = mc.renderBuffers().bufferSource();
         VertexConsumer consumer = bufferSource.getBuffer(PlanetShaderRegistration.PLANET_RENDER_TYPE);
 
-        float r = HALF_SIZE;
+        float r = halfSize;
         addCubeFace(consumer, matrix, r, 1, 0, 0);
         addCubeFace(consumer, matrix, r, -1, 0, 0);
         addCubeFace(consumer, matrix, r, 0, 1, 0);
