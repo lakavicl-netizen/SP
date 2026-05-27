@@ -1,0 +1,13 @@
+{
+  "itemGroup.space_engine_s": "Example Mod Tab",
+  "block.space_engine_s.example_block": "Example Block",
+  "item.space_engine_s.example_item": "Example Item",
+
+  "space_engine_s.configuration.title": "Space_engine-S Configs",
+  "space_engine_s.configuration.section.space_engine_s.common.toml": "Space_engine-S Configs",
+  "space_engine_s.configuration.section.space_engine_s.common.toml.title": "Space_engine-S Configs",
+  "space_engine_s.configuration.items": "Item List",
+  "space_engine_s.configuration.logDirtBlock": "Log Dirt Block",
+  "space_engine_s.configuration.magicNumberIntroduction": "Magic Number Text",
+  "space_engine_s.configuration.magicNumber": "Magic Number"
+}
