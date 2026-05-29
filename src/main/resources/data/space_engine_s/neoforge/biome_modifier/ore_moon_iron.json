@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "features": "space_engine_s:ore_moon_iron",
+  "biomes": "#space_engine_s:is_moon",
+  "step": "underground_ores"
+}

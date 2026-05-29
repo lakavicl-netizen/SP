@@ -1,0 +1,38 @@
+{
+  "void_engine_start": {
+    "subtitle": "subtitles.space_engine_s.void_engine_start",
+    "sounds": [
+      "space_engine_s:void_engine_start"
+    ]
+  },
+  "void_engine_travel": {
+    "subtitle": "subtitles.space_engine_s.void_engine_travel",
+    "sounds": [
+      "space_engine_s:void_engine_travel"
+    ]
+  },
+  "void_engine_stop": {
+    "subtitle": "subtitles.space_engine_s.void_engine_stop",
+    "sounds": [
+      "space_engine_s:void_engine_stop"
+    ]
+  },
+  "wormhole_ambiance": {
+    "subtitle": "subtitles.space_engine_s.wormhole_ambiance",
+    "sounds": [
+      "space_engine_s:wormhole_ambiance"
+    ]
+  },
+  "miasma_hiss": {
+    "subtitle": "subtitles.space_engine_s.miasma_hiss",
+    "sounds": [
+      "space_engine_s:miasma_hiss"
+    ]
+  },
+  "void_core_ore_sound": {
+    "subtitle": "subtitles.space_engine_s.void_core_ore_sound",
+    "sounds": [
+      "space_engine_s:void_core_ore_sound"
+    ]
+  }
+}

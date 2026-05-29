@@ -1,0 +1,31 @@
+{
+  "planets": [
+    {
+      "id": "minecraft:overworld",
+      "atmosphere": {
+        "density": 1.0,
+        "thickness": 1.0,
+        "precipitation": true,
+        "isBreathable": true,
+        "color": {
+          "type": "space_engine_s:overworld"
+        }
+      }
+    },
+    {
+      "id": "space_engine_s:moon",
+      "atmosphere": {
+        "density": 0.1,
+        "thickness": 0.2,
+        "precipitation": false,
+        "isBreathable": false,
+        "color": {
+          "type": "space_engine_s:rgb",
+          "r": 0,
+          "g": 0,
+          "b": 0
+        }
+      }
+    }
+  ]
+}
