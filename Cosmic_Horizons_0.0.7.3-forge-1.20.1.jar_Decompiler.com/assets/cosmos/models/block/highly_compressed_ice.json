@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/denslycompressed_ice",
+    "up": "cosmos:block/denslycompressed_ice",
+    "north": "cosmos:block/denslycompressed_ice",
+    "east": "cosmos:block/denslycompressed_ice",
+    "south": "cosmos:block/denslycompressed_ice",
+    "west": "cosmos:block/denslycompressed_ice",
+    "particle": "cosmos:block/denslycompressed_ice"
+  },
+  "render_type": "solid"
+}

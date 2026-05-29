@@ -1,0 +1,9 @@
+{
+  "parent": "cosmos:custom/ship_upright_titanium_t3",
+  "textures": {
+    "all": "cosmos:block/gltf_embedded_1",
+    "particle": "cosmos:block/gltf_embedded_1",
+    "2": "cosmos:block/gltf_embedded_1"
+  },
+  "render_type": "solid"
+}

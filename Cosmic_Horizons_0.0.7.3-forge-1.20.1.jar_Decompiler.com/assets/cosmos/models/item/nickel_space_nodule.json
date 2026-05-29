@@ -1,0 +1,7 @@
+{
+  "parent": "cosmos:custom/ship_nickle",
+  "textures": {
+    "0": "cosmos:block/gltf_embedded_2",
+    "particle": "cosmos:item/gltf_embedded_2"
+  }
+}

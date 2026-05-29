@@ -1,0 +1,9 @@
+{
+  "parent": "cosmos:custom/ship_steel",
+  "textures": {
+    "all": "cosmos:block/gltf_embedded_0",
+    "particle": "cosmos:block/gltf_embedded_0",
+    "0": "cosmos:block/gltf_embedded_0"
+  },
+  "render_type": "solid"
+}

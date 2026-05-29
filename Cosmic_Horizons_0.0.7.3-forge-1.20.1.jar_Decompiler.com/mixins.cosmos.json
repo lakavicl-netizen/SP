@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "net.lointain.cosmos.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.cosmos.refmap.json",
+  "mixins": [
+    "GravityEntityMixin",
+    "ArrowTickMixin",
+    "BoatTickMixin",
+    "FishingHookTickMixin",
+    "ThrowableProjectileTickMixin",
+    "ThrownExperienceBottleTickMixin",
+    "ThrownPotionTickMixin",
+    "LivingEntityTickMixin"
+  ],
+  "client": [
+  	"ClientPacketListenerMixin",
+  	"MixinGameRenderer",
+  	"MixinLevelRenderer",
+  	"MixinLastRenderEvent"
+  	],
+  "minVersion": "0.8"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "cosmos:custom/redstone_reciever_off",
+  "textures": {
+    "all": "cosmos:block/redstone_reciever_off",
+    "particle": "cosmos:block/redstone_reciever_off",
+    "4": "cosmos:block/redstone_reciever_off"
+  },
+  "render_type": "cutout_mipped"
+}

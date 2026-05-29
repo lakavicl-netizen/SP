@@ -1,0 +1,9 @@
+{
+  "parent": "cosmos:custom/navigation_table",
+  "textures": {
+    "all": "cosmos:block/navigation_table",
+    "particle": "cosmos:block/navigation_table",
+    "1": "cosmos:block/navigation_table"
+  },
+  "render_type": "solid"
+}

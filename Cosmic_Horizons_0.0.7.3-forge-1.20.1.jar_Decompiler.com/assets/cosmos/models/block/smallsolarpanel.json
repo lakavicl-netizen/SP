@@ -1,0 +1,9 @@
+{
+  "parent": "cosmos:custom/small_panel",
+  "textures": {
+    "all": "cosmos:block/small_panel_off",
+    "particle": "cosmos:block/small_panel_off",
+    "6": "cosmos:block/small_panel_off"
+  },
+  "render_type": "cutout_mipped"
+}

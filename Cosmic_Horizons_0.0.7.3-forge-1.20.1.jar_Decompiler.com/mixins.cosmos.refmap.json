@@ -1,0 +1,68 @@
+{
+  "mappings": {
+    "net/lointain/cosmos/mixins/BoatTickMixin": {
+      "floatBoat": "Lnet/minecraft/world/entity/vehicle/Boat;m_38395_()V"
+    },
+    "net/lointain/cosmos/mixins/FishingHookTickMixin": {
+      "tick": "Lnet/minecraft/world/entity/projectile/FishingHook;m_8119_()V"
+    },
+    "net/lointain/cosmos/mixins/GravityEntityMixin": {
+      "tick": "m_8119_()V"
+    },
+    "net/lointain/cosmos/mixins/MixinLastRenderEvent": {
+      "renderLevel(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;)V": "Lnet/minecraft/client/renderer/LevelRenderer;m_109599_(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;)V"
+    },
+    "net/lointain/cosmos/mixins/MixinLevelRenderer": {
+      "renderLevel": "Lnet/minecraft/client/renderer/LevelRenderer;m_109599_(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;)V"
+    },
+    "net/lointain/cosmos/mixins/LivingEntityTickMixin": {
+      "travel": "Lnet/minecraft/world/entity/LivingEntity;m_7023_(Lnet/minecraft/world/phys/Vec3;)V"
+    },
+    "net/lointain/cosmos/mixins/ArrowTickMixin": {
+      "tick": "Lnet/minecraft/world/entity/projectile/AbstractArrow;m_8119_()V"
+    },
+    "net/lointain/cosmos/mixins/ClientPacketListenerMixin": {
+      "setScreen": "Lnet/minecraft/client/Minecraft;m_91152_(Lnet/minecraft/client/gui/screens/Screen;)V"
+    },
+    "net/lointain/cosmos/mixins/ThrowableProjectileTickMixin": {
+      "tick": "Lnet/minecraft/world/entity/projectile/ThrowableProjectile;m_8119_()V"
+    },
+    "net/lointain/cosmos/mixins/MixinGameRenderer": {
+      "getDepthFar": "Lnet/minecraft/client/renderer/GameRenderer;m_172790_()F"
+    }
+  },
+  "data": {
+    "searge": {
+      "net/lointain/cosmos/mixins/BoatTickMixin": {
+        "floatBoat": "Lnet/minecraft/world/entity/vehicle/Boat;m_38395_()V"
+      },
+      "net/lointain/cosmos/mixins/FishingHookTickMixin": {
+        "tick": "Lnet/minecraft/world/entity/projectile/FishingHook;m_8119_()V"
+      },
+      "net/lointain/cosmos/mixins/GravityEntityMixin": {
+        "tick": "m_8119_()V"
+      },
+      "net/lointain/cosmos/mixins/MixinLastRenderEvent": {
+        "renderLevel(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;)V": "Lnet/minecraft/client/renderer/LevelRenderer;m_109599_(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;)V"
+      },
+      "net/lointain/cosmos/mixins/MixinLevelRenderer": {
+        "renderLevel": "Lnet/minecraft/client/renderer/LevelRenderer;m_109599_(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lorg/joml/Matrix4f;)V"
+      },
+      "net/lointain/cosmos/mixins/LivingEntityTickMixin": {
+        "travel": "Lnet/minecraft/world/entity/LivingEntity;m_7023_(Lnet/minecraft/world/phys/Vec3;)V"
+      },
+      "net/lointain/cosmos/mixins/ArrowTickMixin": {
+        "tick": "Lnet/minecraft/world/entity/projectile/AbstractArrow;m_8119_()V"
+      },
+      "net/lointain/cosmos/mixins/ClientPacketListenerMixin": {
+        "setScreen": "Lnet/minecraft/client/Minecraft;m_91152_(Lnet/minecraft/client/gui/screens/Screen;)V"
+      },
+      "net/lointain/cosmos/mixins/ThrowableProjectileTickMixin": {
+        "tick": "Lnet/minecraft/world/entity/projectile/ThrowableProjectile;m_8119_()V"
+      },
+      "net/lointain/cosmos/mixins/MixinGameRenderer": {
+        "getDepthFar": "Lnet/minecraft/client/renderer/GameRenderer;m_172790_()F"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/raw_silicon_moon_clay",
+    "up": "cosmos:block/raw_silicon_moon_clay",
+    "north": "cosmos:block/raw_silicon_moon_clay",
+    "east": "cosmos:block/raw_silicon_moon_clay",
+    "south": "cosmos:block/raw_silicon_moon_clay",
+    "west": "cosmos:block/raw_silicon_moon_clay",
+    "particle": "cosmos:block/raw_silicon_moon_clay"
+  },
+  "render_type": "solid"
+}

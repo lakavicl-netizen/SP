@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cosmos:block/stone_core_block"
+    }
+  }
+}

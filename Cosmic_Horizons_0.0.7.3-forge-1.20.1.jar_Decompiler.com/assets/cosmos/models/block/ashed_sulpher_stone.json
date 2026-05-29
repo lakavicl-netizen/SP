@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/ashed_sulphuric_stone",
+    "up": "cosmos:block/ashed_sulphuric_stone",
+    "north": "cosmos:block/ashed_sulphuric_stone",
+    "east": "cosmos:block/ashed_sulphuric_stone",
+    "south": "cosmos:block/ashed_sulphuric_stone",
+    "west": "cosmos:block/ashed_sulphuric_stone",
+    "particle": "cosmos:block/ashed_sulphuric_stone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/compressed_stone",
+    "up": "cosmos:block/compressed_stone",
+    "north": "cosmos:block/compressed_stone",
+    "east": "cosmos:block/compressed_stone",
+    "south": "cosmos:block/compressed_stone",
+    "west": "cosmos:block/compressed_stone",
+    "particle": "cosmos:block/compressed_stone"
+  },
+  "render_type": "solid"
+}

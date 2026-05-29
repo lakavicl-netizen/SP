@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/sulphurous_sand",
+    "up": "cosmos:block/sulphurous_sand",
+    "north": "cosmos:block/sulphurous_sand",
+    "east": "cosmos:block/sulphurous_sand",
+    "south": "cosmos:block/sulphurous_sand",
+    "west": "cosmos:block/sulphurous_sand",
+    "particle": "cosmos:block/sulphurous_sand"
+  },
+  "render_type": "solid"
+}

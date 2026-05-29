@@ -1,0 +1,9 @@
+{
+  "parent": "cosmos:custom/detonator_on",
+  "textures": {
+    "all": "cosmos:block/detonator_on",
+    "particle": "cosmos:block/detonator_on",
+    "1": "cosmos:block/detonator_on"
+  },
+  "render_type": "cutout"
+}

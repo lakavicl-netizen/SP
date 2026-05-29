@@ -1,0 +1,7 @@
+{
+  "parent": "cosmos:custom/detonation_controller",
+  "textures": {
+    "0": "cosmos:block/detonation_controller",
+    "particle": "cosmos:item/detonation_controller"
+  }
+}

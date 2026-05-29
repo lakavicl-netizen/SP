@@ -1,0 +1,7 @@
+{
+  "parent": "cosmos:custom/ship_titanium",
+  "textures": {
+    "0": "cosmos:block/gltf_embedded_1",
+    "particle": "cosmos:item/gltf_embedded_1"
+  }
+}

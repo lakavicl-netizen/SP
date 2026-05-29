@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:add",
+    "argument1": {
+        "type": "minecraft:blend_density",
+        "argument": {
+            "type": "minecraft:squeeze",
+            "argument": {
+                "type": "minecraft:add",
+                "argument1": {
+                    "type": "minecraft:y_clamped_gradient",
+                    "from_y": -32,
+                    "to_y": 128,
+                    "from_value": 0.5,
+                    "to_value": -0.7
+                },
+                "argument2": {
+                    "type": "minecraft:noise",
+                    "noise": "cosmos:j_1900",
+                    "xz_scale": 0.5,
+                    "y_scale": 0.5
+                }
+            }
+        }
+    },
+    "argument2": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": -92,
+        "to_y": 128,
+        "from_value": 0.8,
+        "to_value": -0.6
+    }
+}

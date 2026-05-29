@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cosmos:block/detonator_target_on"
+    }
+  }
+}

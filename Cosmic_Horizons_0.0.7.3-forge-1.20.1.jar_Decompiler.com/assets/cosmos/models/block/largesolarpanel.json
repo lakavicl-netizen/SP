@@ -1,0 +1,9 @@
+{
+  "parent": "cosmos:custom/large_panel",
+  "textures": {
+    "all": "cosmos:block/large_panel_off",
+    "particle": "cosmos:block/large_panel_off",
+    "1": "cosmos:block/large_panel_off"
+  },
+  "render_type": "solid"
+}

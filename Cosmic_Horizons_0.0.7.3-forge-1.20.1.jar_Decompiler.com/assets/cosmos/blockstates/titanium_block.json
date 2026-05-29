@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cosmos:block/titanium_block"
+    }
+  }
+}

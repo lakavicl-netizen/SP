@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/steel_block",
+    "up": "cosmos:block/steel_block",
+    "north": "cosmos:block/steel_block",
+    "east": "cosmos:block/steel_block",
+    "south": "cosmos:block/steel_block",
+    "west": "cosmos:block/steel_block",
+    "particle": "cosmos:block/steel_block"
+  },
+  "render_type": "solid"
+}

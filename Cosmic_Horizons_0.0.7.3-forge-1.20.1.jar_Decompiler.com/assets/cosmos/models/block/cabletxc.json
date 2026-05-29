@@ -1,0 +1,9 @@
+{
+  "parent": "cosmos:custom/electrical_cable_txc",
+  "textures": {
+    "all": "cosmos:block/electrical_cable",
+    "particle": "cosmos:block/electrical_cable",
+    "texture": "cosmos:block/electrical_cable"
+  },
+  "render_type": "cutout_mipped"
+}

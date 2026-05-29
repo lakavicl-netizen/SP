@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cosmos:block/height_limiter",
+    "particle": "cosmos:block/height_limiter"
+  },
+  "render_type": "cutout"
+}

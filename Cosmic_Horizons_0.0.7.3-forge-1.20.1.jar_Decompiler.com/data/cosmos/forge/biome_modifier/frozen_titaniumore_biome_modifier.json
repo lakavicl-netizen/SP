@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "cosmos:earth_moon_land",
+  "features": "cosmos:frozen_titaniumore",
+  "step": "underground_ores"
+}

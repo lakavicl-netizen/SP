@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/frozen_titanium_ore",
+    "up": "cosmos:block/frozen_titanium_ore",
+    "north": "cosmos:block/frozen_titanium_ore",
+    "east": "cosmos:block/frozen_titanium_ore",
+    "south": "cosmos:block/frozen_titanium_ore",
+    "west": "cosmos:block/frozen_titanium_ore",
+    "particle": "cosmos:block/frozen_titanium_ore"
+  },
+  "render_type": "solid"
+}

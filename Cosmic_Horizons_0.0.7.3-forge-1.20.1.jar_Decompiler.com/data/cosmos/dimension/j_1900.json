@@ -1,0 +1,11 @@
+{
+  "type": "cosmos:j_1900",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "cosmos:j_1900",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "cosmos:nickel_wastelands"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "cosmos:custom/template_hanging_lantern_extinguished",
+  "textures": {
+    "all": "cosmos:block/lantern_extinguished",
+    "particle": "cosmos:block/lantern_extinguished",
+    "1": "cosmos:block/lantern_extinguished",
+    "lantern": "cosmos:block/lantern_extinguished"
+  },
+  "render_type": "cutout_mipped"
+}

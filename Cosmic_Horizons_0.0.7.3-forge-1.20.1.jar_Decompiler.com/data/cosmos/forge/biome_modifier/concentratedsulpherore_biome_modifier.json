@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "cosmos:scorching_lands",
+  "features": "cosmos:concentratedsulpherore",
+  "step": "underground_ores"
+}

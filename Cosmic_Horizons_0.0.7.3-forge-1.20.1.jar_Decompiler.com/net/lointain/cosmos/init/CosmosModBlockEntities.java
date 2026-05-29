@@ -1,0 +1,117 @@
+package net.lointain.cosmos.init;
+
+import com.mojang.datafixers.types.Type;
+import net.lointain.cosmos.block.entity.CableNBlockEntity;
+import net.lointain.cosmos.block.entity.CableeBlockEntity;
+import net.lointain.cosmos.block.entity.CablefBlockEntity;
+import net.lointain.cosmos.block.entity.CableiBlockEntity;
+import net.lointain.cosmos.block.entity.CablelBlockEntity;
+import net.lointain.cosmos.block.entity.CablelcBlockEntity;
+import net.lointain.cosmos.block.entity.CablelccBlockEntity;
+import net.lointain.cosmos.block.entity.CableltBlockEntity;
+import net.lointain.cosmos.block.entity.CableltcBlockEntity;
+import net.lointain.cosmos.block.entity.CablesBlockEntity;
+import net.lointain.cosmos.block.entity.CabletBlockEntity;
+import net.lointain.cosmos.block.entity.CabletcBlockEntity;
+import net.lointain.cosmos.block.entity.CabletxBlockEntity;
+import net.lointain.cosmos.block.entity.CabletxcBlockEntity;
+import net.lointain.cosmos.block.entity.CabletxccBlockEntity;
+import net.lointain.cosmos.block.entity.CablexBlockEntity;
+import net.lointain.cosmos.block.entity.CablexcBlockEntity;
+import net.lointain.cosmos.block.entity.ChamberedSuperSmelterblockBlockEntity;
+import net.lointain.cosmos.block.entity.DetonatorTargetBlockEntity;
+import net.lointain.cosmos.block.entity.DetonatorTargetOnBlockEntity;
+import net.lointain.cosmos.block.entity.LargesolarpanelBlockEntity;
+import net.lointain.cosmos.block.entity.ProjectorTableBlockEntity;
+import net.lointain.cosmos.block.entity.SmallsolarpanelBlockEntity;
+import net.lointain.cosmos.block.entity.SteelBatteryBlockEntity;
+import net.lointain.cosmos.block.entity.SteelLandingPadOFFBlockEntity;
+import net.lointain.cosmos.block.entity.SteelLandingPadONBlockEntity;
+import net.lointain.cosmos.block.entity.SteelRestoneRecieverOFFBlockEntity;
+import net.lointain.cosmos.block.entity.SteelRestoneRecieverONBlockEntity;
+import net.lointain.cosmos.block.entity.Steelbatter1BlockEntity;
+import net.lointain.cosmos.block.entity.Steelbatter2BlockEntity;
+import net.lointain.cosmos.block.entity.Steelbatter3BlockEntity;
+import net.lointain.cosmos.block.entity.Steelbatter4BlockEntity;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraft.world.level.block.entity.BlockEntityType.Builder;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+
+public class CosmosModBlockEntities {
+   public static final DeferredRegister<BlockEntityType<?>> REGISTRY;
+   public static final RegistryObject<BlockEntityType<?>> CHAMBERED_SUPER_SMELTERBLOCK;
+   public static final RegistryObject<BlockEntityType<?>> LARGESOLARPANEL;
+   public static final RegistryObject<BlockEntityType<?>> SMALLSOLARPANEL;
+   public static final RegistryObject<BlockEntityType<?>> CABLEE;
+   public static final RegistryObject<BlockEntityType<?>> CABLE_N;
+   public static final RegistryObject<BlockEntityType<?>> CABLES;
+   public static final RegistryObject<BlockEntityType<?>> CABLEI;
+   public static final RegistryObject<BlockEntityType<?>> CABLEL;
+   public static final RegistryObject<BlockEntityType<?>> CABLELC;
+   public static final RegistryObject<BlockEntityType<?>> CABLELCC;
+   public static final RegistryObject<BlockEntityType<?>> CABLELT;
+   public static final RegistryObject<BlockEntityType<?>> CABLELTC;
+   public static final RegistryObject<BlockEntityType<?>> CABLEF;
+   public static final RegistryObject<BlockEntityType<?>> CABLET;
+   public static final RegistryObject<BlockEntityType<?>> CABLETC;
+   public static final RegistryObject<BlockEntityType<?>> CABLETX;
+   public static final RegistryObject<BlockEntityType<?>> CABLETXC;
+   public static final RegistryObject<BlockEntityType<?>> CABLETXCC;
+   public static final RegistryObject<BlockEntityType<?>> CABLEX;
+   public static final RegistryObject<BlockEntityType<?>> CABLEXC;
+   public static final RegistryObject<BlockEntityType<?>> STEEL_BATTERY;
+   public static final RegistryObject<BlockEntityType<?>> STEELBATTER_1;
+   public static final RegistryObject<BlockEntityType<?>> STEELBATTER_2;
+   public static final RegistryObject<BlockEntityType<?>> STEELBATTER_3;
+   public static final RegistryObject<BlockEntityType<?>> STEELBATTER_4;
+   public static final RegistryObject<BlockEntityType<?>> STEEL_RESTONE_RECIEVER_ON;
+   public static final RegistryObject<BlockEntityType<?>> STEEL_RESTONE_RECIEVER_OFF;
+   public static final RegistryObject<BlockEntityType<?>> STEEL_LANDING_PAD_ON;
+   public static final RegistryObject<BlockEntityType<?>> STEEL_LANDING_PAD_OFF;
+   public static final RegistryObject<BlockEntityType<?>> PROJECTOR_TABLE;
+   public static final RegistryObject<BlockEntityType<?>> DETONATOR_TARGET;
+   public static final RegistryObject<BlockEntityType<?>> DETONATOR_TARGET_ON;
+
+   private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
+      return REGISTRY.register(registryname, () -> Builder.m_155273_(supplier, new Block[]{(Block)block.get()}).m_58966_((Type)null));
+   }
+
+   static {
+      REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, "cosmos");
+      CHAMBERED_SUPER_SMELTERBLOCK = register("chambered_super_smelterblock", CosmosModBlocks.CHAMBERED_SUPER_SMELTERBLOCK, ChamberedSuperSmelterblockBlockEntity::new);
+      LARGESOLARPANEL = register("largesolarpanel", CosmosModBlocks.LARGESOLARPANEL, LargesolarpanelBlockEntity::new);
+      SMALLSOLARPANEL = register("smallsolarpanel", CosmosModBlocks.SMALLSOLARPANEL, SmallsolarpanelBlockEntity::new);
+      CABLEE = register("cablee", CosmosModBlocks.CABLEE, CableeBlockEntity::new);
+      CABLE_N = register("cable_n", CosmosModBlocks.CABLE_N, CableNBlockEntity::new);
+      CABLES = register("cables", CosmosModBlocks.CABLES, CablesBlockEntity::new);
+      CABLEI = register("cablei", CosmosModBlocks.CABLEI, CableiBlockEntity::new);
+      CABLEL = register("cablel", CosmosModBlocks.CABLEL, CablelBlockEntity::new);
+      CABLELC = register("cablelc", CosmosModBlocks.CABLELC, CablelcBlockEntity::new);
+      CABLELCC = register("cablelcc", CosmosModBlocks.CABLELCC, CablelccBlockEntity::new);
+      CABLELT = register("cablelt", CosmosModBlocks.CABLELT, CableltBlockEntity::new);
+      CABLELTC = register("cableltc", CosmosModBlocks.CABLELTC, CableltcBlockEntity::new);
+      CABLEF = register("cablef", CosmosModBlocks.CABLEF, CablefBlockEntity::new);
+      CABLET = register("cablet", CosmosModBlocks.CABLET, CabletBlockEntity::new);
+      CABLETC = register("cabletc", CosmosModBlocks.CABLETC, CabletcBlockEntity::new);
+      CABLETX = register("cabletx", CosmosModBlocks.CABLETX, CabletxBlockEntity::new);
+      CABLETXC = register("cabletxc", CosmosModBlocks.CABLETXC, CabletxcBlockEntity::new);
+      CABLETXCC = register("cabletxcc", CosmosModBlocks.CABLETXCC, CabletxccBlockEntity::new);
+      CABLEX = register("cablex", CosmosModBlocks.CABLEX, CablexBlockEntity::new);
+      CABLEXC = register("cablexc", CosmosModBlocks.CABLEXC, CablexcBlockEntity::new);
+      STEEL_BATTERY = register("steel_battery", CosmosModBlocks.STEEL_BATTERY, SteelBatteryBlockEntity::new);
+      STEELBATTER_1 = register("steelbatter_1", CosmosModBlocks.STEELBATTER_1, Steelbatter1BlockEntity::new);
+      STEELBATTER_2 = register("steelbatter_2", CosmosModBlocks.STEELBATTER_2, Steelbatter2BlockEntity::new);
+      STEELBATTER_3 = register("steelbatter_3", CosmosModBlocks.STEELBATTER_3, Steelbatter3BlockEntity::new);
+      STEELBATTER_4 = register("steelbatter_4", CosmosModBlocks.STEELBATTER_4, Steelbatter4BlockEntity::new);
+      STEEL_RESTONE_RECIEVER_ON = register("steel_restone_reciever_on", CosmosModBlocks.STEEL_RESTONE_RECIEVER_ON, SteelRestoneRecieverONBlockEntity::new);
+      STEEL_RESTONE_RECIEVER_OFF = register("steel_restone_reciever_off", CosmosModBlocks.STEEL_RESTONE_RECIEVER_OFF, SteelRestoneRecieverOFFBlockEntity::new);
+      STEEL_LANDING_PAD_ON = register("steel_landing_pad_on", CosmosModBlocks.STEEL_LANDING_PAD_ON, SteelLandingPadONBlockEntity::new);
+      STEEL_LANDING_PAD_OFF = register("steel_landing_pad_off", CosmosModBlocks.STEEL_LANDING_PAD_OFF, SteelLandingPadOFFBlockEntity::new);
+      PROJECTOR_TABLE = register("projector_table", CosmosModBlocks.PROJECTOR_TABLE, ProjectorTableBlockEntity::new);
+      DETONATOR_TARGET = register("detonator_target", CosmosModBlocks.DETONATOR_TARGET, DetonatorTargetBlockEntity::new);
+      DETONATOR_TARGET_ON = register("detonator_target_on", CosmosModBlocks.DETONATOR_TARGET_ON, DetonatorTargetOnBlockEntity::new);
+   }
+}

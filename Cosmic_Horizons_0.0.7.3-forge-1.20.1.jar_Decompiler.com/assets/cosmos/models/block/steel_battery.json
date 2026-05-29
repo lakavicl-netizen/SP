@@ -1,0 +1,9 @@
+{
+  "parent": "cosmos:custom/battery",
+  "textures": {
+    "all": "cosmos:block/steel_battery_0",
+    "particle": "cosmos:block/steel_battery_0",
+    "3": "cosmos:block/steel_battery_0"
+  },
+  "render_type": "cutout_mipped"
+}

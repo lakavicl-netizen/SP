@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/concentrated_sulpher_ore",
+    "up": "cosmos:block/concentrated_sulpher_ore",
+    "north": "cosmos:block/concentrated_sulpher_ore",
+    "east": "cosmos:block/concentrated_sulpher_ore",
+    "south": "cosmos:block/concentrated_sulpher_ore",
+    "west": "cosmos:block/concentrated_sulpher_ore",
+    "particle": "cosmos:block/concentrated_sulpher_ore"
+  },
+  "render_type": "solid"
+}

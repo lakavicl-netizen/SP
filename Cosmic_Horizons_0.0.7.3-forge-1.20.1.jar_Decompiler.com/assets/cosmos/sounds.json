@@ -1,0 +1,27 @@
+{
+  "cosmos": {
+    "subtitle": "subtitles.cosmos",
+    "sounds": [
+      {
+        "name": "cosmos:melody",
+        "stream": true
+      }
+    ]
+  },
+  "thrust": {
+    "sounds": [
+      {
+        "name": "cosmos:thrust",
+        "stream": false
+      }
+    ]
+  },
+  "laser": {
+    "sounds": [
+      {
+        "name": "cosmos:ultra_heavy_laser_sound_effect",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/sulphuric_tnt_bottom",
+    "up": "cosmos:block/sulphuric_tnt_top",
+    "north": "cosmos:block/sulphuric_tnt_side",
+    "east": "cosmos:block/sulphuric_tnt_side",
+    "south": "cosmos:block/sulphuric_tnt_side",
+    "west": "cosmos:block/sulphuric_tnt_side",
+    "particle": "cosmos:block/sulphuric_tnt_bottom"
+  },
+  "render_type": "solid"
+}

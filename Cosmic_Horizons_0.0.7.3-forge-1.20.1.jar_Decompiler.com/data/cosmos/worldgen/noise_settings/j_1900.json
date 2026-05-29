@@ -1,0 +1,45 @@
+{
+    "sea_level": -64,
+    "disable_mob_generation": true,
+    "aquifers_enabled": false,
+    "ore_veins_enabled": false,
+    "legacy_random_source": false,
+    "default_block": {
+        "Name": "cosmos:raw_nickel_stone"
+    },
+    "default_fluid": {
+        "Name": "cosmos:raw_nickel_stone"
+    },
+    "noise": {
+        "min_y": -64,
+        "height": 192,
+        "size_horizontal": 1,
+        "size_vertical": 1
+    },
+    "noise_router": {
+        "barrier": "minecraft:zero",
+        "fluid_level_floodedness": "minecraft:zero",
+        "fluid_level_spread": "minecraft:zero",
+        "lava": "minecraft:zero",
+        "temperature": "minecraft:overworld_large_biomes/jaggedness",
+        "vegetation": "minecraft:overworld/caves/spaghetti_2d",
+        "continents": "minecraft:nether/base_3d_noise",
+        "erosion": "minecraft:overworld/erosion",
+        "depth": "minecraft:overworld/depth",
+        "ridges": "minecraft:overworld/ridges",
+        "initial_density_without_jaggedness": "minecraft:overworld/ridges_folded",
+        "final_density": {
+            "type": "minecraft:min",
+            "argument1": "cosmos:j_1900",
+            "argument2": "cosmos:after_craters"
+        },
+        "vein_toggle": "minecraft:overworld_large_biomes/jaggedness",
+        "vein_ridged": "minecraft:overworld/sloped_cheese",
+        "vein_gap": "minecraft:overworld_large_biomes/continents"
+    },
+    "spawn_target": [],
+    "surface_rule": {
+        "type": "minecraft:sequence",
+        "sequence": []
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "cosmos:crude_oil",
+    "cosmos:sulphuric_acid",
+    "cosmos:bright_fire"
+  ]
+}

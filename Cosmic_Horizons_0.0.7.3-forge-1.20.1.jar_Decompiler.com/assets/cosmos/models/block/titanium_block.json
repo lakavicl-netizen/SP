@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/titanium_block",
+    "up": "cosmos:block/titanium_block",
+    "north": "cosmos:block/titanium_block",
+    "east": "cosmos:block/titanium_block",
+    "south": "cosmos:block/titanium_block",
+    "west": "cosmos:block/titanium_block",
+    "particle": "cosmos:block/titanium_block"
+  },
+  "render_type": "solid"
+}

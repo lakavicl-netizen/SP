@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "cosmos:steel_landing_pad_off",
+    "cosmos:steel_landing_pad_on",
+    "cosmos:smallsolarpanel",
+    "cosmos:largesolarpanel",
+    "cosmos:siliconedmoonclay",
+    "cosmos:frozen_titaniumore"
+  ]
+}

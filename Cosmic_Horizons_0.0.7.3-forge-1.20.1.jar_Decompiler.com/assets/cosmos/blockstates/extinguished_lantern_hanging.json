@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cosmos:block/extinguished_lantern_hanging"
+    },
+    "facing=east": {
+      "model": "cosmos:block/extinguished_lantern_hanging",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cosmos:block/extinguished_lantern_hanging",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cosmos:block/extinguished_lantern_hanging",
+      "y": 270
+    }
+  }
+}

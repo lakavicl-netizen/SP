@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "cosmos:nickle_ingot"
+    },
+    "b": {
+      "item": "minecraft:gunpowder"
+    },
+    "c": {
+      "item": "cosmos:sulpher_dust"
+    }
+  },
+  "result": {
+    "item": "cosmos:sulpher_tnt",
+    "count": 1
+  }
+}

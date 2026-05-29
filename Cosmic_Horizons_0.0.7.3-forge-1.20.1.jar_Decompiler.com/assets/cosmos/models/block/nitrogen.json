@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/nitrogen",
+    "up": "cosmos:block/nitrogen",
+    "north": "cosmos:block/nitrogen",
+    "east": "cosmos:block/nitrogen",
+    "south": "cosmos:block/nitrogen",
+    "west": "cosmos:block/nitrogen",
+    "particle": "cosmos:block/nitrogen"
+  },
+  "render_type": "solid"
+}

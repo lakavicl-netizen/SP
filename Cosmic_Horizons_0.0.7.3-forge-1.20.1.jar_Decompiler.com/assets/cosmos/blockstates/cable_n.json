@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cosmos:block/cable_n"
+    },
+    "facing=east": {
+      "model": "cosmos:block/cable_n",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cosmos:block/cable_n",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cosmos:block/cable_n",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "cosmos:block/cable_n",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "cosmos:block/cable_n",
+      "x": 90
+    }
+  }
+}

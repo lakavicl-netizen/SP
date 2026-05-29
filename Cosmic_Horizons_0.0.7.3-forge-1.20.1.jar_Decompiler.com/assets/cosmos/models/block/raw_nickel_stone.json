@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/raw_nickel_block",
+    "up": "cosmos:block/raw_nickel_block",
+    "north": "cosmos:block/raw_nickel_block",
+    "east": "cosmos:block/raw_nickel_block",
+    "south": "cosmos:block/raw_nickel_block",
+    "west": "cosmos:block/raw_nickel_block",
+    "particle": "cosmos:block/raw_nickel_block"
+  },
+  "render_type": "solid"
+}

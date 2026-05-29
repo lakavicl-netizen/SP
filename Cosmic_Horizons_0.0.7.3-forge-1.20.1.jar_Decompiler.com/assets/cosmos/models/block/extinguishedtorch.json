@@ -1,0 +1,9 @@
+{
+  "parent": "cosmos:custom/template_torch_extinguished",
+  "textures": {
+    "all": "cosmos:block/extinguished_torch",
+    "particle": "cosmos:block/extinguished_torch",
+    "2": "cosmos:block/extinguished_torch"
+  },
+  "render_type": "cutout_mipped"
+}

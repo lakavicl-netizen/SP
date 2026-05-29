@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cosmos:block/chambered_super_smelterblock"
+    },
+    "facing=east": {
+      "model": "cosmos:block/chambered_super_smelterblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cosmos:block/chambered_super_smelterblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cosmos:block/chambered_super_smelterblock",
+      "y": 270
+    }
+  }
+}

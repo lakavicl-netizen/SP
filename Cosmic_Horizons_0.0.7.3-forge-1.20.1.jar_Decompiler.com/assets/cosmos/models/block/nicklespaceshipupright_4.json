@@ -1,0 +1,9 @@
+{
+  "parent": "cosmos:custom/ship_upright_nickle_t4",
+  "textures": {
+    "all": "cosmos:block/gltf_embedded_2",
+    "particle": "cosmos:block/gltf_embedded_2",
+    "0": "cosmos:block/gltf_embedded_2"
+  },
+  "render_type": "solid"
+}

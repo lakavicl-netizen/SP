@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/martian_stone_tiles",
+    "up": "cosmos:block/martian_stone_tiles",
+    "north": "cosmos:block/martian_stone_tiles",
+    "east": "cosmos:block/martian_stone_tiles",
+    "south": "cosmos:block/martian_stone_tiles",
+    "west": "cosmos:block/martian_stone_tiles",
+    "particle": "cosmos:block/martian_stone_tiles"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/moon_sand",
+    "up": "cosmos:block/moon_sand",
+    "north": "cosmos:block/moon_sand",
+    "east": "cosmos:block/moon_sand",
+    "south": "cosmos:block/moon_sand",
+    "west": "cosmos:block/moon_sand",
+    "particle": "cosmos:block/moon_sand"
+  },
+  "render_type": "solid"
+}

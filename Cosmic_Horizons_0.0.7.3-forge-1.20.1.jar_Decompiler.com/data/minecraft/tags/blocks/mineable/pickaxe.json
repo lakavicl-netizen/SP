@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "cosmos:steel_landing_pad_off",
+    "cosmos:steel_landing_pad_on",
+    "cosmos:steel_restone_reciever_off",
+    "cosmos:steel_restone_reciever_on",
+    "cosmos:nickle_block",
+    "cosmos:steelbatter_4",
+    "cosmos:steelbatter_3",
+    "cosmos:steelbatter_2",
+    "cosmos:steelbatter_1",
+    "cosmos:steel_battery",
+    "cosmos:smallsolarpanel",
+    "cosmos:largesolarpanel",
+    "cosmos:frozen_titaniumore",
+    "cosmos:concentratedsulpherore",
+    "cosmos:compressed_frozen_moon_claydust"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "cosmos:titanium_ingot"
+    },
+    {
+      "item": "cosmos:titanium_ingot"
+    },
+    {
+      "item": "cosmos:titanium_ingot"
+    },
+    {
+      "item": "cosmos:titanium_ingot"
+    },
+    {
+      "item": "cosmos:titanium_ingot"
+    },
+    {
+      "item": "cosmos:titanium_ingot"
+    },
+    {
+      "item": "cosmos:titanium_ingot"
+    },
+    {
+      "item": "cosmos:titanium_ingot"
+    },
+    {
+      "item": "cosmos:titanium_ingot"
+    }
+  ],
+  "result": {
+    "item": "cosmos:titanium_block",
+    "count": 1
+  }
+}

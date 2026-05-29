@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cosmos:block/steel_landing_pad_on"
+    },
+    "facing=east": {
+      "model": "cosmos:block/steel_landing_pad_on",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cosmos:block/steel_landing_pad_on",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cosmos:block/steel_landing_pad_on",
+      "y": 270
+    }
+  }
+}

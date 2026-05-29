@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cosmos:block/smallsolarpanel"
+    },
+    "facing=east": {
+      "model": "cosmos:block/smallsolarpanel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "cosmos:block/smallsolarpanel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "cosmos:block/smallsolarpanel",
+      "y": 270
+    }
+  }
+}

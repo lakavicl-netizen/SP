@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 15,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "cosmos:raw_nickle"
+  },
+  "result": "cosmos:nickle_ingot"
+}

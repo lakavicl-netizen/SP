@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cosmos:block/methane",
+    "particle": "cosmos:block/methane"
+  },
+  "render_type": "solid"
+}

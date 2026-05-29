@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bedrock",
+    "cosmos:highly_compressed_ice",
+    "cosmos:sulphuric_sand",
+    "cosmos:concentratedsulpherore",
+    "cosmos:sulpher_stone",
+    "cosmos:frozen_titaniumore",
+    "cosmos:titanium_block",
+    "cosmos:sulpher_tnt",
+    "cosmos:ashedsulphuric_tnt",
+    "cosmos:height_limiter",
+    "cosmos:sulphuric_acid",
+    "cosmos:stone_core_block",
+    "minecraft:water",
+    "minecraft:bubble_column",
+    "minecraft:lava",
+    "minecraft:magma_block",
+    "cosmos:bright_fire",
+    "minecraft:air",
+    "minecraft:void_air",
+    "minecraft:cave_air"
+  ]
+}

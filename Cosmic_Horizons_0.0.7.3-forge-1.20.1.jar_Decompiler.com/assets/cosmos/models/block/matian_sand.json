@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmos:block/martian_sand",
+    "up": "cosmos:block/martian_sand",
+    "north": "cosmos:block/martian_sand",
+    "east": "cosmos:block/martian_sand",
+    "south": "cosmos:block/martian_sand",
+    "west": "cosmos:block/martian_sand",
+    "particle": "cosmos:block/martian_sand"
+  },
+  "render_type": "solid"
+}

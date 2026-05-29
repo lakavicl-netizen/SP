@@ -1,0 +1,9 @@
+{
+  "parent": "cosmos:custom/landing_pad_off",
+  "textures": {
+    "all": "cosmos:block/landing_pad_unpowered",
+    "particle": "cosmos:block/landing_pad_unpowered",
+    "0": "cosmos:block/landing_pad_unpowered"
+  },
+  "render_type": "solid"
+}
